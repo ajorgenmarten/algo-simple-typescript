@@ -54,6 +54,8 @@ class Nodo {
         
         return values;
     }
+
+    esHoja = ():boolean => !this.hijoIzquierdo && !this.hijoDerecho
 }
 
 class Arbol {
